@@ -1,0 +1,1 @@
+module.exports = "Hey ! I'm Flav from Remote Campus";
