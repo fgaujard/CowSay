@@ -1,8 +1,8 @@
-var msg = require('./information.js');
-var cowsay = require("cowsay");
+const msg = require('./information.js');
+const cowsay = require("cowsay");
 
 console.log(cowsay.say({
-    text : msg,
+    text : `Hey ! I'm ${msg.name} from ${msg.campus} Campus`,
     e : "oO",
     T : "U "
 }));

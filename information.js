@@ -1,1 +1,5 @@
-module.exports = "Hey ! I'm Flav from Remote Campus";
+const to_export = {
+    name: "Flav",
+    campus: "Remote"
+}
+module.exports = to_export;
